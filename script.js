@@ -57,13 +57,25 @@ function handlerButtonEconomy(isIncrease) {
 
 // BOOK NOW BUTTON ....
 const bookNowBtn = document.getElementById('orderComplete').addEventListener('click', function orderComplete() {
-    if (grandTotal == 0) {
-        alert('Please, complete your order !!')
+    // flying();
+    var  flyingForm = document.getElementById("flyingFrom");
+    var  flyingTo = document.getElementById("flyingTo");
+    var departureTime = document.getElementById("departureTime");
+    var returnTime = document.getElementById("returnTime");
+
+    if (grandTotal == 0 || 
+            flyingTo.value === '' || 
+                 flyingForm.value === '' || 
+                     departureTime.value === '' || 
+                         returnTime.value ==='') {
+        alert("Please, check your 'DESTINATION', 'DATE' & 'TICKET' !!")
     }
-    if (grandTotal != 0) {
+    else {
         const bookingArea = document.getElementById('booking-area');
         bookingArea.style.display = "none";
         const completeArea = document.getElementById('complete-area');
         completeArea.style.display = "block"
     }
 })
+
+

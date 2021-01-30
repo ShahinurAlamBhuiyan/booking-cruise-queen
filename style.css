@@ -43,6 +43,7 @@ nav ul li a:hover, a.active{
     grid-template-columns: 2fr 3fr;
     gap: 70px;
     align-items: center;
+    padding-top: 22px;
 }
 .booking-content{
     color: #fff;
@@ -103,22 +104,26 @@ nav ul li a:hover, a.active{
 .plus-btn{
     padding: 4px 15px;
     margin-right: 16px;
-    background-color: #E33741;
-    border: white;
     color: white;
     border-radius: 3px;
     font-size: 20px;
-    cursor: pointer;
 }
 .minus-btn{
     padding: 4px 15px;
     margin-right: 9px;
-    background-color: #E33741;
-    border: white;
-    color: white;
     border-radius: 3px;
     font-size: 20px;
+    
+}
+.activityBtn{
+    background-color: #E33741;
+    color: white;
     cursor: pointer;
+    border: white;
+    outline: none;
+}
+.activityBtn:active{
+    background-color: rgba(227, 55, 65, 0.6) ;
 }
 .booking-form .inputs{
     display: grid;
@@ -133,9 +138,8 @@ nav ul li a:hover, a.active{
     border: none;
     color: #fff;
     font-weight: 500;
-    background-color:  #E33741;
-    cursor: pointer;
 }
+
 .amount{
     display: flex;
     justify-content: space-between;
@@ -143,13 +147,15 @@ nav ul li a:hover, a.active{
 #complete-area{
     text-align: center;
     display: none;
-    margin: 400px 100px 150px 150px;
-    padding: 50px;
+    margin: 200px 100px 150px 150px;
+    padding: 109px;
     color: white;
-    background-color: rgba(241, 75, 46, 0.5);
+    background-color: rgba(241, 75, 46, 0.3);
     border-radius: 10px;
+    /* background-size: cover; */
 }
 #complete-area h1 {
     font-size: 30px;
     color: rgb(24, 153, 19);
+    
 }

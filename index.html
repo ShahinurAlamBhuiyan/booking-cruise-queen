@@ -40,20 +40,20 @@
             <h3>Book Ocean Time</h3>
             <div class="input-group">
                 <label for="">Flying From</label>
-                <input class="inp-style" type="text" name="" placeholder="Dhaka, Bangladesh">
+                <input class="inp-style" type="text" name=""  placeholder="Dhaka, Bangladesh" id="flyingFrom">
             </div>
             <div class="input-group">
                 <label for="">Flying To</label>
-                <input class="inp-style" type="text" name="" placeholder="New York, United States">
+                <input class="inp-style" type="text" name="" placeholder="New York, United States" id="flyingTo">
             </div>
             <div class="inputs">
                 <div class="input-group">
                     <label" for="">Departure</label>
-                    <input class="inp-style" type="date" name="">
+                    <input class="inp-style" type="date" name="" id="departureTime">
                 </div>
                 <div class="input-group">
                     <label for="">Return</label>
-                    <input class="inp-style" type="date" name="">
+                    <input class="inp-style" type="date" name="" id="returnTime">
                 </div>
             </div>
             <div class="input-group f-class">
@@ -62,8 +62,8 @@
                     <input  id="firstClassInput" class="inp-style inp-width" type="number" value="0" disabled>
                 </div>
                 <div class="plus-minus-btn">
-                    <button onclick="handlerButtonFirstClass(true)" class="plus-btn">+</button>
-                    <button onclick="handlerButtonFirstClass(false)" class="minus-btn">-</button>
+                    <button onclick="handlerButtonFirstClass(true)" class="plus-btn activityBtn">+</button>
+                    <button onclick="handlerButtonFirstClass(false)" class="minus-btn activityBtn">-</button>
                 </div>
             </div>
             
@@ -73,8 +73,8 @@
                     <input  id="economyInput" class="inp-style inp-width" type="number" value="0" disabled>
                 </div>
                 <div class="plus-minus-btn">
-                    <button onclick="handlerButtonEconomy(true)" class="plus-btn">+</button>
-                    <button onclick="handlerButtonEconomy(false)" class="minus-btn">-</button>
+                    <button onclick="handlerButtonEconomy(true)" class="plus-btn activityBtn">+</button>
+                    <button onclick="handlerButtonEconomy(false)" class="minus-btn activityBtn">-</button>
                 </div>
             </div>
             <div class="calculations">
@@ -105,7 +105,7 @@
                     </div>
                 </div>
             </div>
-            <button class="btn-style" id="orderComplete">Book Now</button>
+            <button  class="btn-style activityBtn" id="orderComplete">Book Now</button>
         </div>
     </section>
     
