@@ -56,8 +56,8 @@ function handlerButtonEconomy(isIncrease) {
 }
 
 // BOOK NOW BUTTON ....
-const bookNowBtn = document.getElementById('orderComplete').addEventListener('click', function orderComplete() {
-    // flying();
+const bookNowBtn = document.getElementById('orderComplete').addEventListener('click', function () {
+
     var  flyingForm = document.getElementById("flyingFrom");
     var  flyingTo = document.getElementById("flyingTo");
     var departureTime = document.getElementById("departureTime");
