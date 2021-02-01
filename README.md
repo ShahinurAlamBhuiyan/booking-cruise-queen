@@ -21,5 +21,5 @@ This is a ticket booking website. you can travel anywhere by booking ticket.
 ## Click below & check ...
 [CLICK ME](https://shahinuralambhuiyan.github.io/booking-cruise-queen/)
 
-## Let's take a look!
+## Let's take a look of my home page!
 ![alt text](images/cruise-queen-page.jpg)
