@@ -18,7 +18,7 @@ This is a ticket booking website. you can travel anywhere by booking ticket.
 * Per ticket VAT 10% also included in your grand total amount.
 * If your booking is complete you will get a message as confirmation.
 
-## Click below & check ...
+## Click below & check it out...
 [CLICK ME](https://shahinuralambhuiyan.github.io/booking-cruise-queen/)
 
 ## Let's take a look of my home page!
